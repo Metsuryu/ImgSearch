@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>ImgSearch</title>
+	<link rel="stylesheet" type="text/css" href="public/css/style.css" />
+</head>
+<body>
+<!--Everything inside basePage is dimmed and disabled while a picture is open.-->
+<div id="basePage">
+	<h1>ImgSearch</h1>
+	<h2 class="post">Search images on flickr</h2>
+
+	<form>
+		<input id="searchInput" type="text"  name="searchText" autofocus required placeholder="Search" />
+		<button id="searchBTN">Search</button>
+	</form>
+	<br>
+	
+	<div id="results">
+		<!--Results here-->	
+	</div>
+</div>
+
+<div id="windowContainer">
+	<!--Fullscreen image here-->	
+</div>
+
+<script src="public/js/jquery-3.2.1.min.js"></script>
+<script src="public/js/main.js"></script>
+</body>
+</html>
